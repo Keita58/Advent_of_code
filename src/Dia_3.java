@@ -32,6 +32,7 @@ public class Dia_3 {
             resultat += (Integer.parseInt(numeros[0]) * Integer.parseInt(numeros[1]));
         }
         System.out.println(resultat);
+        input.close();
     }
 
     public static void Dia3Part2() {
@@ -66,5 +67,6 @@ public class Dia_3 {
             }
         }
         System.out.println(resultat);
+        input.close();
     }
 }

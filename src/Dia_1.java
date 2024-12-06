@@ -28,5 +28,6 @@ public class Dia_1 {
             distancia += Math.abs(numLlista1 - numLlista2);
         }
         System.out.print(distancia);
+        input.close();
     }
 }

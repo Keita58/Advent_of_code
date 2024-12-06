@@ -49,6 +49,7 @@ public class Dia_2 {
             descendent = false;
         }
         System.out.println(segurs);
+        input.close();
     }
 
     public static void Dia2Part2() {
@@ -192,5 +193,6 @@ public class Dia_2 {
             }
         }
         System.out.println(segurs);
+        input.close();
     }
 }
